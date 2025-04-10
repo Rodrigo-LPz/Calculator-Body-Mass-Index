@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 17%;
+    
+    background-color:var(--color-background-calculator);
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+h1{
+    margin: 50px 0px 100px 0px;
+    color: var(--color);
+    font-family: var(--font-family-titles);
+    font-size: var(--font-size-title);
+    font-weight: bold;
+}
+
+h2{
+    margin: 50px 0px 100px 0px;
+    color: var(--color);
+    font-family: var(--font-family-titles);
+    font-size: var(--font-size-subtitle);
+    font-weight: bold;
+}
+
+button h3{
+    height: 25px;
+    width: 300px;
+}
+
+p{
+    font-family: var(--font-family-general);
+}
+
+/* Creamos/Mencionamos los colores para los resultados impresos. */
+.blue{
+    color: #3b82f6;
+}
+
+.green{
+    color: #22c55e;
+}
+
+.orange{
+    color: #f97316;
+}
+
+.red{
+    color: #ef4444;
+}
+
+.error{
+    color: #dc2626;
+}
